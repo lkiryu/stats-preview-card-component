@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.card{
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    height: 450px;
+}
+
+.card .info{
+    padding: 60px 80px;
+    width: 600px;
+}
+
+.info .title{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 36px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 30px;
+}
+
+.info .title span{
+    color: hsl(277, 64%, 61%);
+}
+
+.info .description{
+    width: 350px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+}
+
+.info .numbers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    width: 350px;
+}
+
+.numbers .number{
+    font-size: 24px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.numbers ul:last-child .number{
+    text-transform: uppercase;
+}
+
+.numbers .number-type{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.image{
+    position: relative;
+}
+
+.image img{
+    width: 540px;
+    height: 450px;
+    border-radius: 0px 10px 10px 0;
+}
+
+.image .purple{
+    position: absolute;
+    z-index: 1;
+    background-color: hsla(277, 100%, 40%, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
